@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(134, 134, 134, 0.055);
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.navigation li:hover {
+    background-color: #837e7794;
+}
+
+.text-link {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.apple-list {
+    display: inline-block;
+    text-align: center;
+    background-color: #837e7794;
+    width: 700px;
+    margin: 40px;
+}
