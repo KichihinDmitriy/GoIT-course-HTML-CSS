@@ -1,0 +1,141 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+    background-image: linear-gradient(#bdc3c7, #23292e);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 100px;
+}
+
+.link-logo {
+    display: inline-block;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    float: right;
+}
+.navigation-list a:hover,
+.navigation-list a:focus {
+    color: #51ed5d;
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+    float: left;
+}
+
+.navigation-list li:last-child {
+    margin-right: 0;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.title-main-content {
+    text-align: center;
+    margin: 20px 600px;
+}
+
+.title-main-content::after {
+    content: '';
+    display: block;
+    background-color: #51ed5d;
+    height: 5px;
+    width: 470px;
+}
+
+.main-list {
+    margin: 0 20px;
+    padding: 0;
+}
+
+.main-content-list {
+    padding: 5px;
+    width: 400px;
+    list-style: none;
+    float: left;
+}
+
+.main-content-link {
+    background-color: #bdc3c7;
+    padding: 10px 20px;
+}
+
+.main-content-link:hover {
+    background-color: #51ed5d;
+}
+
+.content-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.content-price {
+    text-decoration: none;
+    color: #000000;
+    float: right;
+}
+
+.title-exclusive {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 550px;
+}
+
+.title-exclusive::after {
+    content: '';
+    display: block;
+    background-color: #51ed5d;
+    height: 5px;
+    width: 580px;
+}
+
+.list-exclusive {
+    margin: 0 20px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.list-exclusive-content {
+    padding: 8px;
+    width: 530px;
+    list-style: none;
+    float: left;
+    color: #ffffff;}
+
+.learn-more-button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.learn-more-button:hover {
+    background-color: #51ed5d;
+}
