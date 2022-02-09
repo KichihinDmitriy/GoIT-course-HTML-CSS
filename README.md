@@ -1,1 +1,1 @@
-# GoIT-course( HTML/CSS )
+# GoIT-course-HTML-CSS
